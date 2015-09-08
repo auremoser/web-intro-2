@@ -28,4 +28,4 @@ Check out our [Materials Page](https://www.girldevelopit.com/materials) to learn
 
 [@auremoser](twitter.com/auremoser)
 
-[aurelia@girldevelopit.com](mailto:aurelia@girldevelopit.com)
+[mosera@newschool.edu](mailto:aurelia@girldevelopit.com)
