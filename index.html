@@ -46,30 +46,40 @@
         <!-- Welcome-->
         <section>
           <h3>Welcome!</h3>
-          <div class="left-align">
           <img src="images/graphiti2.jpg" alt="" />
-          <p>In this class we'll review some basics of HTML/CSS, languages for writing content to the web. </p>
-          </div>
-        </section
+          <p>In this class we'll review some basics of web development with HTML/CSS, languages for writing content to the web. </p>
+        </section>
+
+        <!-- Outline -->
+        <section>
+          <h3>Outline</h3>
+          <img src="images/graphiti4.jpg" height="300" alt="" />
+          <ul>
+            <li>Homework/Readings review</li>
+            <li>Practice with Github </li>
+            <li>HTML/CSS Lesson (<a href="http://auremoser.github.io/web-intro-2/">web-intro-2</a>)</li>
+            <li>Practice with HTML/CSS (<a href="http://auremoser.github.io/web-intro-2/practice/practice">practice</a> | <a href="http://auremoser.github.io/web-intro-2/practic/completed">completed</a>)</li>
+          </ul>
+        </section>        
 
         <!-- Review Terms-->
         <section>
          <h3>Review: Terms</h3>
          <ul>
            <li>
-            <div class="red">Web design</div>
+            <div class="red"><strong>Web design</strong></div>
             <div>The process of planning, structuring and creating a website</div>
            </li>
            <li>
-            <div class="red">Web development</div>
+            <div class="red"><strong>Web development</strong></div>
             <div>The process of programming dynamic web applications</div>
            </li>
            <li>
-            <div class="red">Front end</div>
+            <div class="red"><strong>Front end</strong></div>
             <div>The outwardly visible elements of a website or application</div>
            </li>
            <li>
-            <div class="red">Back end</div>
+            <div class="red"><strong>Back end</strong></div>
             <div>The inner workings and functionality of a website or application.</div>
            </li>
          </ul>
@@ -80,17 +90,17 @@
           <h3>Review: Tools</h3>
           <ul>
             <li>
-              <div class="red">Browser</div>
+              <div class="red"><strong>Browser</strong></div>
               <div>Chrome</div>
               <div>Firefox</div>
              </li>
              <li>
-              <div class="red">Development Toolkit</div>
+              <div class="red"><strong>Development Toolkit</strong></div>
               <div>Chrome - Inspector</div>
               <div>Firefox - Firebug</div>
              </li>
              <li>
-              <div class="red">Text Editor</div>
+              <div class="red"><strong>Text Editor</strong></div>
               <div>TextWrangler - Mac</div>
               <div>Notepad ++ - Windows</div>
               <div>Sublime Text - Mac or Windows</div>
@@ -124,9 +134,9 @@
           </ul>
         </section>
 
-        <!-- Review HTML element-->
+        <!-- HTML elements-->
         <section>
-         <h3>Review: Anatomy of an HTML element</h3>
+         <h3>Anatomy of an HTML element</h3>
          <ul>
             <li class="fragment">
               Element
@@ -150,7 +160,7 @@
           </ul>
         </section>
         <section>
-          <h3>Review: Anatomy of an HTML element</h3>
+          <h3>Anatomy of an HTML element</h3>
           <ul>
             <li class="fragment">
               Container Element
@@ -172,7 +182,7 @@
           </ul>
         </section>
         <section>
-          <h3>Review: Anatomy of an HTML element</h3>
+          <h3>Anatomy of an HTML element</h3>
           <ul>
             <li class="fragment">
               Attribute
@@ -209,25 +219,27 @@
 
         <!-- The CSS Rule-->
         <section>
-          <h3>Review: The CSS Rule</h3>
+          <h3>The CSS Rule</h3>
 <pre><code class="html">selector {
   property: value;
 }</code></pre>
           <div class="left-align">
-            <p>A block of CSS is a rule block.</p>
-            <p>The rule starts with a selector.</p>
-            <p>It has sets of properties and values.</p>
-            <p>A property-value pair is a declaration.</p>
+            <p>A block of CSS is a <strong>rule block</strong>.</p>
+            <p>The rule starts with a <strong>selector</strong>.</p>
+            <p>It has sets of <strong>properties</strong> and <strong>values</strong>.</p>
+            <p>A property-value pair is a <strong>declaration</strong>.</p>
           </div>
         </section>
 
         <!-- CSS Syntax -->
         <section>
-          <h3>Review: CSS Syntax</h3>
+          <h3>CSS Syntax</h3>
           <div class="left-align">
-            <p>Declarations: Property and value of style you plan use on HTML element.</p>
-            <p>Declarations end with a semicolon</p>
-            <p>Declarations can be grouped and are surrounded by curly brackets.</p>
+            <p><strong>Declarations</strong>: property and value of style you plan use on HTML element.</p>
+            <ul>
+              <li>Declarations end with a semicolon</li>
+              <li>Declarations can be grouped and are surrounded by curly brackets.</li>
+            </ul>
           </div>
 <pre><code class="html">selector {
   property: value;
@@ -238,7 +250,7 @@
 
         <!-- Selectors elements-->
         <section>
-			  <h3>Review: Selector: Element</h3>
+			  <h3>Selector: Element</h3>
           <pre><code class="html">p {
   property: value;
 }</code></pre>
@@ -251,7 +263,7 @@
 
         <!-- Selectors ID-->
         <section>
-			    <h3>Review: Selector: ID</h3>
+			    <h3>Selector: ID</h3>
 <pre><code class="html">#footer {
   property: value;
 }</code></pre>
@@ -274,7 +286,7 @@
 
         <!-- Selector position-->
         <section>
-        <h3>Review: Selector: Position</h3>
+        <h3>Selector: Position</h3>
 <pre><code class="html">p em {
   color: yellow;
 }
@@ -303,13 +315,13 @@
       <section>
         <h3>Reset CSS</h3>
         <p>Even though HTML is the structure and CSS is the design, some HTML elements have default styles</p>
+        <img src="images/gr-stair.jpg" height="300" alt="" />
         <p class = "fragment">Examples include:</p>
         <ul class = "fragment">
           <li><strong>Bulleted lists</strong> like this one have standard bullets</li>
           <li><strong>Paragraphs</strong> have default padding</li>
-          <li><strong>Links</strong> are blue and underlined</li>
+          <li class="blue"><strong>Links</strong> are blue and underlined</li>
         <ul>
-        <img src="images/gr-stair.jpg" height="300" alt="" />
       </section>
 
       <section>
@@ -745,6 +757,7 @@
           <p>
             <a href="http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf" target="_blank">
               sectioning flowchart</a>
+            <img src="images/glow.jpg" height="100" alt="" />
           </p>
         </section>
 
@@ -846,8 +859,8 @@
           <ul>
             <li>Change one small thing at a time</li>
             <li>Remember to modify the CSS to match the HTML</li>
-            <li>You have 10-15 minutes to get started</li>
-            <li>You won't be able to change everything - if we have time, you can continue at the end of the workshop</li>
+            <li>You have 10 minutes to get started</li>
+            <li>You won't be able to change everything - if we have time, you can continue at the end of the class</li>
           </ul>
         </section>
 
