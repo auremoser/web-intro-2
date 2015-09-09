@@ -15,11 +15,11 @@ p {
 }
 
 a {
-  color: #1D766F;
+  color: #51002e;
   text-decoration: none;
 }
 a:hover {
-  color: #BC2F36;
+  color: #eb0087;
 }
 
 h1 {
@@ -66,7 +66,7 @@ nav li a {
   text-decoration: none;
 }
 nav li a:hover {
-  color: #FB000D;
+  color: #eb0087;
 }
 
 .jump {
@@ -91,7 +91,7 @@ nav li a:hover {
 
 /* Header */
 header {
-  background-color: #009D92;
+  background-color: #9d005a;
   padding: 10px;
 }
 header h1 {
@@ -178,7 +178,7 @@ header:after {
   max-width: 50%;
 }
 #organizations ul li:before {
-  color: #FB000D;
+  color: #eb0087;
   content: '6';
   font-family: 'EntypoRegular';
   font-size: 40px;
@@ -221,7 +221,7 @@ header:after {
 
 /* Footer */
 footer {
-  background-color: #00665F;
+  background-color: #9d005a;
 }
 
 footer .nav {
